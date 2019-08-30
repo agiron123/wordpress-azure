@@ -22,9 +22,9 @@
 // database IP Address:
 //rehearsal-mysql-database.mysql.database.azure.com
 // Server Address: rehearsal-database-server.database.windows.net
-$connectstr_dbhost = 'rehearsal-database-server.database.windows.net';
-$connectstr_dbname = 'rehearsal-mysql-database.mysql.database.azure.com/localdb';
-$connectstr_dbusername = 'rehearsalAdmin';
+$connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com:3306';
+$connectstr_dbname = 'localdb';
+$connectstr_dbusername = 'rehearsalAdmin@rehearsal-mysql-database';
 $connectstr_dbpassword = 'JoyBlog123';
 
 foreach ($_SERVER as $key => $value) {
