@@ -20,9 +20,9 @@
 
 //Using environment variables for DB connection information
 
-$connectstr_dbhost = 'rehearsal-database-server.database.windows.net';
-$connectstr_dbname = 'rehearsal-database';
-$connectstr_dbusername = 'rehearsalAdmin';
+$connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com';
+$connectstr_dbname = 'localdb';
+$connectstr_dbusername = 'rehearsalAdmin@rehearsal-mysql-database';
 $connectstr_dbpassword = 'JoyBlog123';
 
 foreach ($_SERVER as $key => $value) {
