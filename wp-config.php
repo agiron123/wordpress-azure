@@ -21,7 +21,7 @@
 //Using environment variables for DB connection information
 
 $connectstr_dbhost = 'rehearsal-database-server.database.windows.net';
-$connectstr_dbname = 'localdb';
+$connectstr_dbname = 'rehearsal-database';
 $connectstr_dbusername = 'rehearsalAdmin';
 $connectstr_dbpassword = 'JoyBlog123';
 
