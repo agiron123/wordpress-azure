@@ -22,7 +22,7 @@
 
 $connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com';
 $connectstr_dbname = 'localdb';
-$connectstr_dbusername = 'rehearsalAdmin@rehearsal-mysql-database';
+$connectstr_dbusername = 'rehearsalAdmin';
 $connectstr_dbpassword = 'JoyBlog123';
 
 foreach ($_SERVER as $key => $value) {
