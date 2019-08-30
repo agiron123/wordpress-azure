@@ -23,7 +23,7 @@
 //rehearsal-mysql-database.mysql.database.azure.com
 // Server Address: rehearsal-database-server.database.windows.net
 $connectstr_dbhost = 'rehearsal-database-server.database.windows.net';
-$connectstr_dbname = 'localdb';
+$connectstr_dbname = 'rehearsal-mysql-database.mysql.database.azure.com/localdb';
 $connectstr_dbusername = 'rehearsalAdmin';
 $connectstr_dbpassword = 'JoyBlog123';
 
