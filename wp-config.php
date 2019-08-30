@@ -19,8 +19,10 @@
  */
 
 //Using environment variables for DB connection information
-
-$connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com';
+// database IP Address:
+//rehearsal-mysql-database.mysql.database.azure.com
+// Server Address: rehearsal-database-server.database.windows.net
+$connectstr_dbhost = 'rehearsal-database-server.database.windows.net';
 $connectstr_dbname = 'localdb';
 $connectstr_dbusername = 'rehearsalAdmin';
 $connectstr_dbpassword = 'JoyBlog123';
