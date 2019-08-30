@@ -20,10 +20,10 @@
 
 //Using environment variables for DB connection information
 
-$connectstr_dbhost = '';
-$connectstr_dbname = '';
-$connectstr_dbusername = '';
-$connectstr_dbpassword = '';
+$connectstr_dbhost = 'rehearsal-database-server.database.windows.net';
+$connectstr_dbname = 'localdb';
+$connectstr_dbusername = 'rehearsalAdmin';
+$connectstr_dbpassword = 'JoyBlog123';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_") !== 0) {
