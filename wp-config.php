@@ -18,15 +18,10 @@
  * @package WordPress
  */
 
-//Using environment variables for DB connection information
-// database IP Address:
-//rehearsal-mysql-database.mysql.database.azure.com
-// Server Address: rehearsal-database-server.database.windows.net
-//$connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com:3306';
-$connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com';
-$connectstr_dbname = 'rehearsalwordpress';
-$connectstr_dbusername = 'rehearsalMasterUser';
-$connectstr_dbpassword = 'JoyBlog123!';
+$connectstr_dbhost = '';
+$connectstr_dbname = '';
+$connectstr_dbusername = '';
+$connectstr_dbpassword = '';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_") !== 0) {
