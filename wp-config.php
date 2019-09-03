@@ -25,7 +25,7 @@
 //$connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com:3306';
 $connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com';
 $connectstr_dbname = 'rehearsalwordpress';
-$connectstr_dbusername = 'rehearsalMasterUser@rehearsal-mysql-database';
+$connectstr_dbusername = 'rehearsalMasterUser';
 $connectstr_dbpassword = 'JoyBlog123!';
 
 foreach ($_SERVER as $key => $value) {
