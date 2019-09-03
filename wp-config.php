@@ -25,8 +25,8 @@
 //$connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com:3306';
 $connectstr_dbhost = 'rehearsal-mysql-database.mysql.database.azure.com';
 $connectstr_dbname = 'localdb';
-$connectstr_dbusername = 'rehearsalAdmin@rehearsal-mysql-database';
-$connectstr_dbpassword = 'JoyBlog123';
+$connectstr_dbusername = 'rehearsalMasterUser@rehearsal-mysql-database';
+$connectstr_dbpassword = 'JoyBlog123!';
 
 foreach ($_SERVER as $key => $value) {
     if (strpos($key, "MYSQLCONNSTR_") !== 0) {
